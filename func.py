@@ -3,7 +3,6 @@ import time
 import json
 from types import SimpleNamespace
 
-
 server = "http://ip:port/api/xSign"
 
 **Contact for api :** [https://t.me/alethino](https://t.me/alethino)

@@ -4,7 +4,6 @@ import json
 
 from types import SimpleNamespace
 server = "http://ip:port/api/xSign"
-
 **Contact for api :** [https://t.me/alethino](https://t.me/alethino)
   
 ## telegram: @alethino
@@ -15,6 +14,7 @@ _rticket = str(int(x_khronos) * 1000).split(".")[0]
 
 url = f"http://api16-normal-c-alisg.tiktokv.com/aweme/v1/commit/follow/user/?item_id=7053726027234708737&from_pre=-1&sec_user_id=MS4wLjABAAAAmLRke2_FbiBZzzzJGSQjURNCkVDTOC5QeU3h5qu9yEaxJYXJHB1cmDZcBjakYKZ4&city&link_sharer=0&channel_id=0&from=13&enter_from=homepage_hot&type=1&iid=7097364930195113733&device_id=6883465806400194059&ac=wifi&channel=googleplay&aid=1233&app_name=musical_ly&version_code=240305&version_name=24.3.5&device_platform=android&ab_version=24.3.5&ssmix=a&device_type=SM-G973N&device_brand=Iphone&language=ru&os_api=25&os_version=7.1.2&openudid=a27dfc98d47579e3&manifest_version_code=2022403050&resolution=720*1280&dpi=240&update_version_code=2022403050&_rticket={_rticket}&current_region=RU&app_type=normal&sys_region=RU&mcc_mnc=25001&timezone_name=Africa%2FNairobi&carrier_region_v2=250&residence=RU&ts={x_khronos}&timezone_offset=10800&build_number=24.3.5&region=RU&uoo=0&app_language=ru&carrier_region=RU&locale=ru-RU&op_region=RU&ac2=wifi&host_abi=x86&cdid=f888ffb7-88b1-4892-bff5-4e0cb3e2daa0"
 
+   
 responseGorgon = requests.request("POST", server, data = {
 	'token': 'token',
 	'url': url,

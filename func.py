@@ -4,7 +4,6 @@ import json
 
 from types import SimpleNamespace
 
-
 server = "http://ip:port/api/xSign"
 **Contact for api :** [https://t.me/dacent53](https://t.me/dacent53)
   

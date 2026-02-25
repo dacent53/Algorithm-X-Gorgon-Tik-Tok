@@ -1,7 +1,6 @@
 import requests
 import time
 import json
-
 from types import SimpleNamespace
 
 
